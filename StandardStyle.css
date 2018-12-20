@@ -1,0 +1,59 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../images/spiration-light.png");
+}
+
+
+
+.container{
+   border: 2px dashed #ccaa90;
+    width: 80%;
+    margin: auto;
+    overflow: none;
+    display: table;
+    padding-left: 6px;
+    margin-top: 150px;
+}
+.poster{
+    float: left;
+    height: 557px;
+    width: 30%;
+    margin: 8px;
+    margin-left: 0px;
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.infoContainer{
+    
+    width: 45%;
+    height: 550px;
+    float: left;
+    margin:6px;
+    margin-top: 8px;
+    background-color:rgba(244,227,214,0.6);;
+    opacity: .9;
+    border-radius: 8px;
+    padding: 3px;
+    text-align: justify;
+    font-weight: 500;
+    border: 1px dotted #ccaa90;
+    overflow: none;
+   
+}
+.period{
+    width: 20%;
+    height: 550px;
+    float: right;
+    margin: 6px;
+    padding: 3px;
+    background-color: rgba(244,227,214,0.6);;
+    border-radius: 8px;
+    text-align: justify;
+    font-weight: 400;
+    border: 1px dotted #ccaa90;
+}

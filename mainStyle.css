@@ -1,0 +1,52 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../images/spiration-light.png");
+    font-family: Arial;
+    color: white;
+}
+
+
+.movieSec{
+    padding-top: 15px;
+}
+.mrow{
+    overflow: none;
+    margin-left: 11.4%;
+}
+.mbox{
+    border: 1px red solid;
+    width: 160px;
+    height: 250px;
+    float: left;
+    padding: 4px;
+    
+}
+.mimg{
+    height: 80%;
+     overflow: hidden;
+}
+.mimg img{
+    height: 100%;
+    width: 100%;
+   
+}
+.mimg img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.minfo{
+    height: 20%;
+    border: 1px blue solid;
+}
+.mname{
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+.mtype{
+    color: green;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 4px;
+}
